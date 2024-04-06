@@ -1,0 +1,57 @@
+/* Body styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container styles */
+.container {
+    display: flex;
+}
+
+/* Left section styles (box1) */
+.left {
+    flex: 1;
+    padding: 20px;
+    background-color: #ADD8E6; /* Light blue background color */
+    position: relative; /* Add this line to make positioning easier */
+}
+
+/* Profile picture container styles */
+.profile-pic-container {
+    position: absolute;
+    top: 0;
+    left: 50%; /* Position the container in the middle horizontally */
+    transform: translateX(-50%); /* Center the container */
+    padding: 10px; /* Optional padding around the profile picture */
+    background-color: #FFFFFF; /* Background color for the profile picture container */
+    border-radius: 50%; /* Make the container round */
+}
+
+/* Profile picture styles */
+.profile-pic {
+    max-width: 250px;
+    max-height: 250px;
+    width: auto;
+    height: auto;
+    border-radius: 50%; /* Make the profile picture round */
+}
+
+/* Name styles */
+.name {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+/* Right section styles (box2) */
+.right {
+    flex: 2;
+    padding: 20px;
+    background-color: #FFFF99; /* Light yellow background color */
+}
+
+/* Elevator pitch styles */
+.elevator-pitch {
+    font-size: 1.2rem;
+}
