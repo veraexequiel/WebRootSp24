@@ -1,57 +1,61 @@
 /* Body styles */
 body {
-    font-family: sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     margin: 0;
     padding: 0;
+    background-image: url('https://img.freepik.com/free-vector/abstract-blue-light-pipe-speed-zoom-black-background-technology_1142-9722.jpg?w=900&t=st=1712969061~exp=1712969661~hmac=c241256ae2691a62062e4702bf5caa54feb9043032cb8616a700f44ce33954db');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff; /* Text color */
 }
 
 /* Container styles */
 .container {
-    display: flex;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
 }
 
 /* Left section styles (box1) */
 .left {
     flex: 1;
     padding: 20px;
-    background-color: #ADD8E6; /* Light blue background color */
-    position: relative; /* Add this line to make positioning easier */
-}
-
-/* Profile picture container styles */
-.profile-pic-container {
-    position: absolute;
-    top: 0;
-    left: 50%; /* Position the container in the middle horizontally */
-    transform: translateX(-50%); /* Center the container */
-    padding: 10px; /* Optional padding around the profile picture */
-    background-color: #FFFFFF; /* Background color for the profile picture container */
-    border-radius: 50%; /* Make the container round */
+    background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent background color */
+    position: relative;
+    text-align: center; /* Center the content */
 }
 
 /* Profile picture styles */
 .profile-pic {
-    max-width: 250px;
-    max-height: 250px;
-    width: auto;
+    max-width: 200px;
     height: auto;
-    border-radius: 50%; /* Make the profile picture round */
+    border-radius: 50%;
 }
 
 /* Name styles */
 .name {
-    font-size: 1.5rem;
-    margin-top: 10px;
+    font-size: 2.5rem; /* Larger font size */
+    margin-top: 20px; /* Increased margin */
+    color: #fff; /* Text color */
 }
 
 /* Right section styles (box2) */
 .right {
     flex: 2;
     padding: 20px;
-    background-color: #FFFF99; /* Light yellow background color */
+    background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent background color */
 }
 
 /* Elevator pitch styles */
 .elevator-pitch {
-    font-size: 1.2rem;
+    font-size: 1.2rem; /* Smaller font size */
+    line-height: 1.6; /* Increased line height for better readability */
+    color: #fff; /* Text color */
+}
+a:visited {
+    color: #0066cc; /* Change to the color you prefer */
 }
